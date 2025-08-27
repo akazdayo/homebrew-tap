@@ -1,25 +1,25 @@
 class Apm < Formula
   desc "The apm application"
   homepage "https://aikyo.vercel.app/"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.0/apm-aarch64-apple-darwin.tar.xz"
-      sha256 "29728f6e25dac1d9064314325cafd51f4eb7acaf3c16933a7e16ce2dede31f65"
+      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.1/apm-aarch64-apple-darwin.tar.xz"
+      sha256 "eb71cb20b13708baaea2eb6a35313ea06236b0b5b9afbf1abf230d8be3698dd6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.0/apm-x86_64-apple-darwin.tar.xz"
-      sha256 "8d62595165bb490be21c38bc93c89dd6c27fc1a75f858c3333de9c1dc10133b9"
+      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.1/apm-x86_64-apple-darwin.tar.xz"
+      sha256 "1c9849364b1f1d091a4d15724eb3111d35aee04422453ff943b4fe38b9e64d38"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.0/apm-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0f0c618afd91f2d2bdd0c77e22d19f1dc356f02902f11ec01daad7fe09b47cb4"
+      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.1/apm-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "b06ebc898ab0c0daa38b65363e1305a6522e77786b95e854777a291f7eb7827a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.0/apm-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fa7a6e15753c28d77cf8cdfe25f0a881eda4e39211269315fd0297e1df5f600b"
+      url "https://github.com/akazdayo/aikyo-package-manager/releases/download/v0.1.1/apm-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6c842bb6d1d5cd6505470c2ce29525cb4ad2dff3ccc89e1e209d951f2099055a"
     end
   end
 
